@@ -1,0 +1,129 @@
+nav {
+  background-color: black;
+  padding-left: 10px !important;
+}
+
+nav a {
+  color: aliceblue !important;
+}
+.form-container {
+  padding-right: 50px;
+}
+
+.form-container button {
+  color: aliceblue !important;
+  border: white solid;
+  margin-top: 10px !important;
+}
+
+.jumbo p {
+  font-weight: bolder;
+}
+
+.jumbo-head h1 {
+  font-size: 90px !important;
+  font-weight: bolder;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 80px;
+  border: solid black 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.card {
+  height: 420px;
+  margin: 5vh;
+  width: 20rem;
+  outline: solid rgb(18, 20, 21) 5px !important;
+  max-width: 20rem;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+.card img {
+  height: 250px;
+  border: black solid 2px;
+  padding: 10px !important;
+  max-width: 20rem;
+}
+
+.card a {
+  background-color: rgb(7, 8, 9) !important;
+}
+
+footer {
+  background-color: black;
+  color: black;
+}
+
+.footcon {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.footcon img {
+  height: 150px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+@media all and (max-width: 430px) {
+  body {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav * {
+    color: aliceblue !important;
+  }
+
+  .card {
+    width: 170px !important;
+    padding-left: 5px;
+    padding-top: 10px !important;
+    border: none;
+    margin: auto !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+
+    row-gap: 5px;
+  }
+  .card img {
+    width: 150px !important;
+    height: 150px !important;
+
+    margin: auto;
+  }
+
+  .card-body {
+    width: 160px !important;
+  }
+  .card a {
+    font-size: 10px !important;
+    height: 39px !important;
+    width: 70px !important;
+  }
+
+  .footcon img {
+    width: 80px;
+    height: 80px;
+  }
+}
